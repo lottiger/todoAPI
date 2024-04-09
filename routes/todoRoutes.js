@@ -7,8 +7,6 @@ import {
   deleteTodo
 } from '../controllers/todoController.js'
 
-// CRUD - Create - Read - Update - Delete
-// router.route('/').get(getTodos).post(createTodo)
 
 // Create
 router.post('/', createTodo)
@@ -18,7 +16,6 @@ router.get('/', getTodos)
 
 // Update
 router.put('/:id', updateTodo)
-// router.patch()
 
 // Delete
 router.delete('/:id', deleteTodo)
